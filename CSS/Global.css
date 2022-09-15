@@ -1,0 +1,51 @@
+body {
+    margin: 0%;
+}
+
+#PageTitle {
+    text-align: center;
+    padding: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #f8f8f2;
+
+    border-top: double;
+    border-bottom: double;
+    border-width: 0.5em;
+}
+
+.PageTitleBar {
+    width: 100%;
+
+    position: fixed;
+    float: top;
+    z-index: 1;
+
+    height: 25em;
+    padding-top: 0.5em;
+
+    background-image: url("../Assets/Global/Header.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.PageTitleText {
+}
+
+#PageContent {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 15em;
+    font-style: italic;
+    background-color: #fdfdfd;
+
+    /*background-color: #f8f8f2;*/
+}
+
+.ParagraphText {
+    font-family: 'Merriweather', serif;
+    text-indent: 4em;
+}
