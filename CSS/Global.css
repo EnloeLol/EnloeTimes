@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    background-color: rgb(93, 99, 105);
 }
 
 #PageTitle {
@@ -17,7 +18,7 @@ body {
     border-width: 0.5em;
 }
 
-.PageTitleBar {
+#PageTitleBar {
     width: 100%;
 
     position: fixed;
@@ -32,7 +33,7 @@ body {
     background-repeat: repeat-x;
 }
 
-.PageTitleText {
+#PageTitleText {
 }
 
 #PageContent {
@@ -40,7 +41,8 @@ body {
     padding-right: 2em;
     padding-top: 15em;
     font-style: italic;
-    background-color: #fdfdfd;
+    /*background-color: #fdfdfd;*/
+    background-color: rgb(131, 138, 145);
 
     /*background-color: #f8f8f2;*/
 }
@@ -48,4 +50,18 @@ body {
 .ParagraphText {
     font-family: 'Merriweather', serif;
     text-indent: 4em;
+
+    font-size:large;
+    color: rgb(15, 15, 15);
+}
+
+.CaptionImage {
+    text-align: center;
+
+    float: right;
+}
+
+.CaptionImage > img {
+    width: 20em;
+    height: auto;
 }
